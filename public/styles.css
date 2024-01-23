@@ -1,0 +1,35 @@
+/*------------------------------------- HEADER -------------------------------------*/
+
+#header {
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+/*------------------------------------- FOOTER -------------------------------------*/
+
+footer .nav-item, .nav-link {
+    color: gray;
+}
+
+footer .nav-link:hover {
+
+    color: white;
+}
+
+.social-footer__list {
+    display: flex;
+    gap: 10px;
+    list-style: unset;
+    padding: 0;
+}
