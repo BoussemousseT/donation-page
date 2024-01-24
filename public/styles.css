@@ -1,18 +1,154 @@
+@font-face {
+    font-family: 'Freshman';
+    src: url('fonts/Freshman.eot');
+    src: url('fonts/Freshman.eot') format('embedded-opentype'),
+        url('fonts/Freshman.woff2') format('woff2'),
+        url('fonts/Freshman.woff') format('woff'),
+        url('fonts/Freshman.ttf') format('truetype'),
+        url('fonts/Freshman.svg#Freshman') format('svg');
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
 /*------------------------------------- HEADER -------------------------------------*/
 
 #header {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     text-align: center;
+    background-color: black;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    height: 130px;
 }
 
 
+/*------------------------------------- Body -------------------------------------*/
+
+.first-partie {
+    background-image: url("./images/background1.png");
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -500px;
+}
+
+.first-partie .row>div:first-child {
+    /* background-color: aqua; */
+    position: relative;
+    left: 150px;
+    margin-top: 50px;
+}
+
+.first-partie .title-button {
+    /* text-align: center; */
+    /* background-color: rgb(136, 0, 255); */
+    /* align-self: center; */
+    /* height: 100%; */
+    /* margin-left: 80px; */
+
+    /* background-color: red; */
+    /* background-color: red; */
+    /* margin-left: 300px; */
+}
+
+.first-partie .title-button h1 {
+    /* font-family: 'Freshman'; */
+    /* position: absolute; */
+    text-align: left;
 
 
+    color: white;
+    /* position: relative;
+    right: 0; */
+}
+
+.first-partie .title-button a {
+    /* font-family: 'Freshman'; */
+    /* position: absolute; */
+
+    /* background-color: #ffc107; */
+    /* position: relative;
+    right: 0; */
+}
+
+
+.first-partie img {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+    /* background-color: red; */
+
+
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ff7f00;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
 
 
 
