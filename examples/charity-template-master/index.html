@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <title>LoveLetter</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="img/letter.png">
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" class="color-changing" href="css/color.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- End CSS files -->
+</head>
+
+<body class="animated bounceInDown" style="animation-duration: 2s;">
+    
+    <!-- start header -->
+    <nav class="navbar fixed-top navbar-dark bg-dark justify-content-center" style="opacity: 0.6;">
+        <a class="navbar-brand justify-content-center animated infinite pulse delay-3s" href="#">
+            <img src="img/letter.png" width="60" height="45">
+        </a>
+    </nav>
+    <!-- End Header -->
+
+    <!-- The search Modal start -->
+    <div class="search-popup modal" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-group relative">
+                            <input type="text" class="form-control input-search" id="search" placeholder="Search here..."> <i class="fas fa-search yellow transform-v-center"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> <i class="fas fa-times close-search-modal" data-dismiss="modal" aria-label="Close"></i>
+    </div>
+    <!-- The search Modal end -->
+
+    <!-- Banner start -->
+    <section class="#slider-3 #relative">
+        <div class="#owl-carousel #owl-theme #main-slider">
+            <div class="#item">
+                        
+                <div class="each-slider flex_center" style="background-image: url(img/nate.jpg);" data-overlay="3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 text-left">
+                                <div class="banner-text-left white z-5">
+                                    <h1 class="black slab mb-15" style="color: white;">
+                                        Together, we can tackle hunger
+                                    </h1>
+                                    <a href="#" class="btn btn-shade-green">
+                                        <span class="z-5 relative">Read More</span>
+                                    </a>
+                                    <a href="#" class="btn btn-shade-yellow ml-30 ml-xs-10">
+                                        <span class="z-5 relative">Contact Us</span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <!-- Banner ends here -->
+    
+    <!-- donate form starts here -->
+    <section class="donate-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="donate-form-main bg-lines" data-overlay="9">
+                        <div class="z-5">
+                            <h1 class="fs-42 slab mb-20  wow fadeInDown">Help us overcome hunger</h1>
+                            <form action="#" class=" wow fadeInUp">
+                                <div class="d-flex flex-column flex-lg-row justify-content-center">
+                                    <div class="dn-toggle">
+                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                            <label class="btn btn-primary">
+                                                <input type="radio" name="options"> Only Once
+                                            </label>
+                                            <label class="btn btn-primary active">
+                                                <input type="radio" name="options" checked> Monthly
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="dn-amount">
+                                        <div class="form-group mr-30 relative mb-0 mr-sm-00">
+                                            <input type="text" class="form-control input-white" id="amount" placeholder="Amount">
+                                            <i class="fas fa-dollar-sign transform-v-center"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dn-name">
+                                        <div class="form-group mr-30 relative mb-0 mr-sm-00">
+                                            <input type="text" class="form-control input-white" id="name" placeholder="Name">
+                                            <i class="fas fa-user transform-v-center"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dn-email">
+                                        <div class="form-group mr-30 relative mb-0 mr-sm-00">
+                                            <input type="text" class="form-control input-white" id="email" placeholder="Email">
+                                            <i class="fas fa-envelope transform-v-center"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dn-button">
+                                        <a href="#" class="btn btn-black">DONATE</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- donate form ends here -->
+
+    <!-- Things you can do section starts here-->
+
+    <section class="find-cases bg-light-white pt-90 pb-60 relative ">
+        <div class="container">
+            <div class="row align-items-end mb-30">
+                <div class="col-lg-8 text-center text-lg-left">
+                    <img src="img/icons/line.png" alt="" class="line mb-15">
+                    <h1 class="fs-42 slab f-800 mb-md-20">I would like to</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="each-case bg-lines " data-overlay="9">
+                        <div class="z-5">
+                            <img src="img/icons/case1.png" alt="">
+                            <h3><a href="#" class="slab">Volunteer</a></h3>
+                            <a href="#" data-toggle="modal" data-target="#volunteerModal" class="btn btn-shade-yellow ml-30 ml-xs-10">
+                                <span class="z-5 relative">Continue</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="each-case bg-lines" data-overlay="9">
+                        <div class="z-5">
+                            <img src="img/icons/case3.png" alt="">
+                            <h3><a href="#" class="slab">Donate Food</a></h3>
+                            <a href="#" data-toggle="modal" data-target="#foodModal" class="btn btn-shade-yellow ml-30 ml-xs-10">
+                                <span class="z-5 relative">Continue</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="each-case bg-lines" data-overlay="9">
+                        <div class="z-5">
+                            <img src="img/icons/case2.png" alt="">
+                            <h3><a href="#" class="slab">Donate Money</a></h3>
+                            <a href="#" data-toggle="modal" data-target="#moneyModal" class="btn btn-shade-yellow ml-30 ml-xs-10">
+                                <span class="z-5 relative">Continue</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/other/dot-circle.png" class="find-c-bg" alt="">
+    </section>
+    <!-- Things you can do section ends here -->
+
+
+    <!-- The Process section starts here -->
+
+    <section class="bg-light-white pt-90 pb-90 pb-md-50">
+        <div class="container">
+            
+            <div class="row align-items-end mb-30">
+                <div class="col-lg-8 text-center text-lg-left">
+                    <img src="img/icons/line.png" alt="" class="line mb-15">
+                    <h1 class="fs-42 slab f-800 mb-md-20">The Process</h1>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-1" style="margin-top: 30px;"></div>
+
+                <div class="col-sm-2">
+                    <div class="#card bg-light-white" style="width: 18rem;">
+                        <img class="#card-img-top" src="img/images/food.png" style="width: 70px;" alt="Card image cap">
+                        <div class="#card-body">
+                          <h5 class="#card-title" style="margin-top: 5px;">Donate</h5>
+                        </div>
+                      </div>
+                </div>
+                
+                
+                <div class="col-sm-1" style="margin-top: 30px;">
+                    <i class="fas fa-chevron-right" style="font-size: x-large;"></i>
+                </div>
+                
+
+                <div class="col-sm-2">
+                    <div class="#card" style="width: 18rem;">
+                        
+                        <img class="#card-img-top" src="img/images/storing.png" style="width: 70px;" alt="Card image cap">
+                        
+                        <div class="#card-body">
+                          <h5 class="#card-title">Storing & Sorting</h5>
+                        </div>
+                      </div>
+                </div>
+                
+                
+                <div class="col-sm-1" style="margin-top: 30px;">
+                    <i class="fas fa-chevron-right" style="font-size: x-large;"></i>
+                </div>
+                
+
+                <div class="col-sm-2">
+                    <div class="#card" style="width: 18rem;">
+                        <img class="#card-img-top" src="img/images/shipping.png" style="width: 70px;" alt="Card image cap">
+                        <div class="#card-body">
+                          <h5 class="#card-title">Delivery</h5>
+                        </div>
+                      </div>
+                </div>
+                
+                
+                <div class="col-sm-1" style="margin-top: 30px;">
+                    <i class="fas fa-chevron-right" style="font-size: x-large;"></i>
+                </div>
+                
+
+                <div class="col-sm-2">
+                    <div class="#card" style="width: 18rem;">
+                        <img class="#card-img-top" src="img/images/mother.png" style="width: 70px;" alt="Card image cap">
+                        <div class="#card-body">
+                          <h5 class="#card-title" style="margin-top: 5px;">Giving</h5>
+                        </div>
+                      </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- The Process section ends here -->
+    
+    <!-- location png file here with padding -->
+
+    <section class="location bg-light-white pt-90 pb-90 pb-md-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img src="img/icons/line.png" alt="" class="line mb-15">
+                    <h1 class="fs-42 slab f-800">Where are We Working?</h1>
+                    <p class="location-mp">Demo text demo text demo text demo text demo text demo textDemo text demo text demo text demo text demo text demo text </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-9">
+                    <div class="location-map">
+                        <img src="img/other/map.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="location-list">
+                        <li>
+                            <a href="#af">South Africa</a>
+                        </li>
+                        <li>
+                            <a href="#india">Mongolia</a>
+                        </li>
+                        <li>
+                            <a href="#ru">Morocco</a>
+                        </li>
+                        <li>
+                            <a href="#b">Syria</a>
+                        </li>
+                        <li>
+                            <a href="#af">Iraq</a>
+                        </li>
+                        <li>
+                            <a href="#sudan">Yemen</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- locations and pinned tops ends here -->
+
+        <!-- bootstrap_modal starts here -->
+		
+		<div class="modal fade" id="volunteerModal" tabindex="-1" role="dialog" aria-labelledby="volunteerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">			
+                <div class="modal-body" style="padding: 20px">
+                  <div class="text-center" style="padding: 20px 0"><h4><strong>PLEASE FILL IN YOUR PARTICULARS</strong></h4>
+                  <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><img src="img/images/name.png" width="15" /></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Full Name" id="register-full-name" name="register-full-name">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><img src="img/images/mail.png" width="15" /></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email Address" id="register-email" name="register-email">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><img src="img/images/password.png" width="15" /></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Password" id="register-password" name="register-password">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><img src="img/images/password.png" width="15" /></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Re-enter Password" id="register-repeated-password" name="register-repeated-password">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><img src="img/images/telephone.png" width="15" /></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Phone Number" id="register-phone-number" name="register-phone-number">
+                  </div>
+                  
+                  <div class="mb-3">
+                      <div class="" style="width: 100%"><button type="button" class="btn btn-warning">CONTINUE</button></div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- end Volunteers -->
+          
+          <!-- money section -->
+          <div class="modal fade" id="moneyModal" tabindex="-1" role="dialog" aria-labelledby="moneyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">			  
+                <div class="modal-body" style="padding: 80px 0">
+                    <div class="row justify-content-md-center card-deck">
+                          <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+                        <div class="col-sm-3 card bg-grey">
+                          <div class="card-body text-center">
+                            <img src="img/images/paypal.png" width="105" />
+                            <p class="card-text">PAYPAL</p>
+                            <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">CONTINUE</button></div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3 card bg-grey">
+                          <div class="card-body text-center">
+                            <img src="img/images/credit_card.png" width="100" />
+                            <p class="card-text">CREDIT CARD</p>
+                            <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">CONTINUE</button></div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Large modal -->
+  
+          <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="foodModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div class="food-details">
+                      <div class="text-center food-details-heading"><h4><strong>Donate Food Details</strong></h4></div>
+                      <button type="button" class="close text-right" data-dismiss="modal" style="position: absolute;top: 6px;right: 8px;" >&times;</button>
+                      <form>
+                        <div class="form-group">
+                          <label for="food-item" class="col-form-label">Food Item</label>
+                          <br>
+                          <p class= "text-muted">Please specify, "5 Tins of Milo"</p>
+                          <input type="text" class="form-control" id="food-item">
+                        </div>
+                        <div class="form-group">
+                          <label for="preferred-time" class="col-form-label">Preferred Time</label>
+                          <select class="form-control" id="preferred-time">
+                              <option value="9am-11am">9am-11am</option>
+                              <option value="11am-1pm">11am-1pm</option>
+                              <option value="11am-1pm">1pm-3pm</option>
+                              <option value="11am-1pm">3pm-5pm</option>
+                              <option value="11am-1pm">5pm-7pm</option>
+                              <option value="11am-1pm">7pm-9pm</option>
+                              <option value="11am-1pm">9pm-11pm</option>
+                          </select>
+                        </div>
+                        
+                        <div class="form-group">
+                        <label for="date" class="col-form-label">Date</label>
+                            <div class="input-group mb-3">				  	
+                            <input type="text" class="form-control datepicker" placeholder="Date" id="date" name="date" data-date-format="dd-M-yyyy" readonly>
+                            <div class="input-group-append">
+                              <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                            </div>
+                          </div>
+                         </div>
+                         
+                        <div class="form-group">
+                        <label for="expiry-date" class="col-form-label">Expiry Date</label>
+                            <br>
+                            <p class="text-muted">*Ensure that the food is 6 months before expiry*</p>
+                            <div class="input-group mb-3">				  	
+                            <input type="text" class="form-control datepicker" placeholder="Expiry Date" id="expiry-date" name="expiry-date" data-date-format="dd-M-yyyy" readonly>
+                            <div class="input-group-append">
+                              <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                            </div>
+                          </div>
+                         </div>			
+                      
+                      </form>
+                  </div>
+                </div>
+                <div class="text-center" style="padding-bottom: 35px;">
+                  <div class="text-center" style="width: 100%"><button type="button" class="btn btn-warning">Submit</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!--   Section Ends Here-->
+    
+    <!-- footer starts here -->
+    <footer class="bg-black footer-a pb-30" data-overlay="1" style="background-image: url('img/bg/ftr.jpg');">
+        <div class="container z-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-newsletter bg-yellow">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 text-center text-lg-left">
+                                <h2 class="fs-35 f-600 slab">Subscibe To Our Newsletter</h2>
+                                <p class="mb-0 mb-md-10">Demo text demo text demo text demo text demo text demo text </p>
+                            </div>
+                            <div class="col-lg-6 text-center text-lg-right">
+                                <form action="#">
+                                    <div class="callback-footer-2 d-flex flex-column flex-sm-row">
+                                        <input type="text" class="form-control input-white shadow-2" placeholder="Your email address">
+                                        <button class="btn btn-black ml-20 ml-xs-00 mt-xs-15">SUBSCIBE </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container z-5">
+            <div class="row mt-15">
+                <div class="col-lg-4 col-sm-6 mb-md-30">
+                    <div class="abot-ftr">
+                        <img src="img/letter.png" alt="" height="60px" width="65px">
+                        <p>Demo text demo text demo text demo text demo text demo textDemo text demo text demo text demo text demo text demo textDemo text demo text demo text demo text demo text demo text</p>
+                        <a href="#">Readmore</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 pl-10 pl-md-15 mb-md-30">
+                    <h4 class="fs-18 f-700 slab yellow opacity-8">About Us</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Our Values</a></li>
+                        <li><a href="#">Founder</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6 pl-20 pl-md-15 mb-md-30">
+                    <h4 class="fs-18 f-700 slab yellow opacity-8">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="##">Home</a></li>
+                        <li><a href="##">About</a></li>
+                        <li><a href="##">Gallery</a></li>
+                        <li><a href="##">Blog</a></li>
+                        <li><a href="##">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 pl-50 pl-md-15">
+                    <h5 class="fs-18 f-700 slab opacity-8 yellow">Office In Singapore</h5>
+                    <img src="img/other/map-f.png" class="mt-25" alt="">
+                </div>
+                <div class="col-12">
+                    <div class="hr-2 bg-light-white mt-60 mb-30 opacity-1"></div>
+                </div>
+            </div>
+            <div class="row copy-footer">
+                <div class="col-sm-6 text-center text-sm-left">
+                    <p class="mb-0 mb-xs-15">© 2020 James, All Rights Reserved</p>
+                </div>
+                <div class="col-sm-6 text-center text-sm-right">
+                    <ul class="social-icons team-social footer-social">
+                        <li> <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li> <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li> <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="scroll-btn bg-blue opacity-0"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- JS Files/Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="js/modernizr-3.5.0.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/style.js" ></script>
+    <script src="https://kit.fontawesome.com/81b4ce2477.js" crossorigin="anonymous"></script>
+
+
+    <!-- JS Scripts section ends here -->
+
+</body>
+
+</html>
