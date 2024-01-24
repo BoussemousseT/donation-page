@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'Freshman';
-    src: url('fonts/Freshman.eot');
-    src: url('fonts/Freshman.eot') format('embedded-opentype'),
-        url('fonts/Freshman.woff2') format('woff2'),
-        url('fonts/Freshman.woff') format('woff'),
-        url('fonts/Freshman.ttf') format('truetype'),
-        url('fonts/Freshman.svg#Freshman') format('svg');
+    font-family: 'Heavitas';
+    src: url('fonts/Heavitas.eot');
+    src: url('fonts/Heavitas.eot') format('embedded-opentype'),
+        url('fonts/Heavitas.woff2') format('woff2'),
+        url('fonts/Heavitas.woff') format('woff'),
+        url('fonts/Heavitas.ttf') format('truetype'),
+        url('fonts/Heavitas.svg#Heavitas') format('svg');
 }
+
 
 @keyframes glowing {
     0% {
@@ -31,7 +32,6 @@
 }
 
 .logo {
-    /* width: 100px; */
     height: 130px;
 }
 
@@ -48,61 +48,39 @@
 }
 
 .first-partie .row>div:first-child {
-    /* background-color: aqua; */
     position: relative;
     left: 150px;
     margin-top: 50px;
 }
 
 .first-partie .title-button {
-    /* text-align: center; */
-    /* background-color: rgb(136, 0, 255); */
-    /* align-self: center; */
-    /* height: 100%; */
-    /* margin-left: 80px; */
-
-    /* background-color: red; */
-    /* background-color: red; */
-    /* margin-left: 300px; */
+    text-align: center;
 }
 
 .first-partie .title-button h1 {
-    /* font-family: 'Freshman'; */
-    /* position: absolute; */
+    font-family: 'Heavitas';
     text-align: left;
-
-
     color: white;
-    /* position: relative;
-    right: 0; */
 }
 
-.first-partie .title-button a {
-    /* font-family: 'Freshman'; */
-    /* position: absolute; */
-
-    /* background-color: #ffc107; */
-    /* position: relative;
-    right: 0; */
-}
 
 
 .first-partie img {
     width: 100%;
     margin-top: 30px;
     margin-left: 100px;
-    /* background-color: red; */
-
-
 }
 
 .glow-on-hover {
     width: 220px;
     height: 50px;
+    font-weight: bold;
+    font-size: 24px;
     border: none;
     outline: none;
-    color: #fff;
-    background: #111;
+    color: black;
+    background: #ff7f00;
+    font-family: 'Heavitas';
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -149,7 +127,6 @@
     top: 0;
     border-radius: 10px;
 }
-
 
 
 /*------------------------------------- FOOTER -------------------------------------*/
