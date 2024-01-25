@@ -2,11 +2,11 @@ import React from 'react'
 
 function FirstPartie () {
     return (
-        <section className='first-partie'>
+        <section className='first-partie bg-image'>
             <div className='mbr-overlay' />
             <div className='container'>
                 <div className='row'>
-                    <div className='col-12 col-lg-6'>
+                    <div className='col-md-5 col-lg-6'>
                         <div className='title-button'>
                             <h1>Donate to Help Build Fractal Governance tools.</h1>
                             {/* <div className='d-grid gap-2 d-md-block'> */}
@@ -15,7 +15,7 @@ function FirstPartie () {
                             {/* </div> */}
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6 img-donation'>
+                    <div className='col-md-7 col-lg-6 img-donation'>
                         <img src='../../images/donation-image.png' alt='donation-image' />
 
                     </div>

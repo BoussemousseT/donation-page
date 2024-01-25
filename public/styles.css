@@ -182,14 +182,6 @@
 }
 
 
-/*Shrinking for mobile*/
-
-@media (max-width: 768px) {
-    .waves {
-        height: 40px;
-        min-height: 40px;
-    }
-}
 
 /* Waves Animation end*/
 
@@ -259,7 +251,7 @@
 
 
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 0px 0px 270px;
     position: relative;
     overflow-x: hidden;
 }
@@ -345,4 +337,82 @@
     100% {
         left: 100%;
     }
+}
+
+
+/* Cache le burger menu sur les tailles autres que le mobile */
+@media only screen and (max-width:1320px) {
+    .first-partie {
+        background-size: unset;
+        background-position-y: 0;
+    }
+
+    .first-partie .row>div:first-child {
+        left: 0;
+    }
+
+    .first-partie img {
+        margin-left: 0;
+    }
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+    .first-partie {
+        background-position-y: unset;
+        background-position-x: 70px;
+        background-size: cover;
+        background-color: black;
+    }
+
+    .first-partie img {
+        display: none;
+    }
+
+    .first-partie .row>div:first-child {
+        position: unset;
+        left: 0;
+        /* margin-top: 0; */
+    }
+
+    .first-partie .title-button h1 {
+        text-align: center;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .supporters-partie img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .logo {
+        height: 100px;
+    }
+
+    .text-partie h2 {
+        font-size: 25px;
+    }
+
+    .text-partie p {
+        font-size: 18px;
+    }
+
+    .text-partie h3 {
+        font-size: 21px;
+    }
+
+    /* Supporters Partie*/
+    .supporters-partie h2 {
+        font-size: 25px;
+    }
+
+
 }
