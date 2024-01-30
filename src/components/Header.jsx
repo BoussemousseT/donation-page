@@ -9,8 +9,8 @@ function Header () {
 
                     <label class='rocker rocker-small'>
                         <input type='checkbox' />
-                        <span class='switch-left'>EN</span>
-                        <span class='switch-right'>FR</span>
+                        <span class='switch-left'>FR</span>
+                        <span class='switch-right'>EN</span>
                     </label>
                 </div>
             </nav>
