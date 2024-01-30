@@ -1,4 +1,5 @@
 import React from 'react'
+import DonateButton from './DonateButton'
 
 function FirstPartie () {
     return (
@@ -11,7 +12,7 @@ function FirstPartie () {
                             <h1>Donate to Help Build Fractal Governance tools.</h1>
                             {/* <div className='d-grid gap-2 d-md-block'> */}
                             {/* <a className='btn btn-warning d-grid gap-2 col-6 mx-auto' type='button' href='https://mobirise.com'>Donate</a> */}
-                            <button className='glow-on-hover' type='button'>DONATE</button>
+                            <DonateButton />
                             {/* </div> */}
                         </div>
                     </div>
