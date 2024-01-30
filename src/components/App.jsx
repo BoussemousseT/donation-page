@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
 import FirstPartie from './FirstPartie'
 import WavesPartie from './WavesPartie'
@@ -7,13 +7,19 @@ import Supporters from './Supporters'
 import Footer from './Footer'
 
 function App () {
+    const [language, setLanguage] = useState('EN')
+
+    const handleLanguageChange = () => {
+        setLanguage((prevLang) => (prevLang === 'EN' ? 'FR' : 'EN'))
+    }
+
     return (
         <div className='App'>
-            <Header />
+            <Header language={language} onLanguageChange={handleLanguageChange} />
             <body>
-                <FirstPartie />
+                <FirstPartie language={language} />
                 <WavesPartie />
-                <TextPartie />
+                <TextPartie language={language} />
                 <Supporters />
             </body>
             <Footer />
