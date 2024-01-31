@@ -9,8 +9,8 @@ function FirstPartie ({ language }) {
                 <div className='row'>
                     <div className='col-md-5 col-lg-6'>
                         <div className='title-button'>
-                            <h1>{language === 'EN' ? 'Donate to Help Build Fractal Governance tools.' : 'TEXT FR'}</h1>
-                            <DonateButton />
+                            <h1 style={{ fontSize: language === 'EN' ? '40px' : '35px' }}>{language === 'EN' ? 'Donate to Help Build Fractal Governance tools.' : 'Faites un don pour aider à créer des outils de gouvernance fractale.'}</h1>
+                            <DonateButton language={language} />
                         </div>
                     </div>
                     <div className='col-md-7 col-lg-6 img-donation'>

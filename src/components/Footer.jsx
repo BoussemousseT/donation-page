@@ -16,8 +16,11 @@ function Footer () {
             <div className='footer_bottom'>
                 <div className='container'>
                     <div className='row align-items-center'>
-                        <div className='col-lg-12 col-sm-12'>
+                        <div className='col-lg-6 col-sm-6'>
                             <p className='mb-0 f_400'><strong>© AWF Donation</strong> - {year} All rights reserved.</p>
+                        </div>
+                        <div className='col-lg-6 col-sm-6'>
+                            <p className='mb-0 f_400'>awfractal@gmail.com</p>
                         </div>
                     </div>
                 </div>

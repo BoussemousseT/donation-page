@@ -213,6 +213,8 @@ input:checked:focus+.switch-left+.switch-right {
     font-family: 'Heavitas';
     text-align: left;
     color: white;
+    /* font-size: 34px; */
+
 }
 
 
@@ -360,13 +362,13 @@ input:checked:focus+.switch-left+.switch-right {
 
 .text-partie p {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     text-align: justify;
 
     /* font-family: 'Heavitas'; */
     color: black;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .text-partie p a {
@@ -378,9 +380,9 @@ input:checked:focus+.switch-left+.switch-right {
     font-size: 25px;
 }
 
-.text-partie p:last-child {
+/* .text-partie p:last-child {
     text-align: center;
-}
+} */
 
 /* Supporters Partie*/
 .supporters-partie {

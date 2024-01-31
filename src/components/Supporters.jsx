@@ -5,7 +5,7 @@ function Supporters () {
         <section className='supporters-partie container'>
             <hr />
             <h2>Supporters</h2>
-            <img src='../../images/edendonationssupporters.png' alt='supporters-image' />
+            <img src='../../images/edendonationssupporters.jpg' alt='supporters-image' />
         </section>
     )
 }
