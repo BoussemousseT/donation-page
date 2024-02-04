@@ -7,6 +7,7 @@ function Supporters () {
             <h2>Supporters</h2>
             <img src='../../images/edendonationssupporters.jpg' alt='supporters-image' />
         </section>
+        // supporters
     )
 }
 
