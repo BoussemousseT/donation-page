@@ -16,12 +16,10 @@ function App () {
     return (
         <div className='App'>
             <Header language={language} onLanguageChange={handleLanguageChange} />
-            <body>
-                <FirstPartie language={language} />
-                <WavesPartie />
-                <TextPartie language={language} />
-                <Supporters />
-            </body>
+            <FirstPartie language={language} />
+            <WavesPartie />
+            <TextPartie language={language} />
+            <Supporters />
             <Footer />
         </div>
     )
