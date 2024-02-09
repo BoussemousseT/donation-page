@@ -413,6 +413,8 @@ input:checked:focus+.switch-left+.switch-right {
 
 .supporters-partie .item {
     animation: animate 25s alternate linear infinite;
+    margin: 0 25px;
+
 }
 
 .supporters-partie .slider-area:hover .item {
@@ -462,7 +464,8 @@ input:checked:focus+.switch-left+.switch-right {
     top: 100px;
     bottom: 0;
     left: 50%;
-    width: 20px;
+    width: 120px;
+    background: #ffffff;
     box-shadow: -15px 0 10px rgb(255, 255, 255), 15px 0 10px rgb(255, 255, 255);
     transform: translateX(-50%);
     z-index: 1;
