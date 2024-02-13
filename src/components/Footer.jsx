@@ -20,7 +20,7 @@ function Footer () {
                             <p className='mb-0 f_400'><strong>© AWF Donation</strong> - {year} All rights reserved.</p>
                         </div>
                         <div className='col-lg-6 col-sm-6'>
-                            <p className='mb-0 f_400'>awfractal@gmail.com</p>
+                            <p className='mb-0 f_400'>Incubated with love at ECB - info@awfdonation.com</p>
                         </div>
                     </div>
                 </div>

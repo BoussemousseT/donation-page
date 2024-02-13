@@ -104,7 +104,7 @@ function Supporters () {
                     </div>
                 </div>
                 <div className='col-12 col-lg-6'>
-                    <h2>Swap</h2>
+                    <h2>Exchange Partners</h2>
                     <div className='swap-slider-area'>
                         <div className='wrapper'>
                             <div className='swap-item'>
